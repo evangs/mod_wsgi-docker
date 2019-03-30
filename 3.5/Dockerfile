@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 
 ENV PYTHON_VERSION=3.5.4 \
     NGHTTP2_VERSION=1.25.0 \
