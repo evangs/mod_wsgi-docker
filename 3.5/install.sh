@@ -38,7 +38,7 @@ apt-get update
 # be installed by the user from the build hooks.
 
 apt-get install -y ca-certificates locales curl gcc g++ file make cmake \
-    xz-utils mime-support libbz2-dev libc6-dev libdb-dev libexpat1-dev \
+    xz-utils mime-support libcap2-bin libbz2-dev libc6-dev libdb-dev libexpat1-dev \
     libffi-dev  libncursesw5-dev libreadline-dev libsqlite3-dev libssl-dev \
     libtinfo-dev zlib1g-dev libpcre++-dev default-libmysqlclient-dev libpq-dev \
     pkg-config vim less git rsync --no-install-recommends
